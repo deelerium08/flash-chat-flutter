@@ -14,12 +14,10 @@ class FlashChat extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: WelcomeScreen.id,
       routes: {
-        // When navigating to the "/" route, build the FirstScreen widget.
         WelcomeScreen.id: (context) => WelcomeScreen(),
         LoginScreen.id: (context) => LoginScreen(),
         RegistrationScreen.id: (context) => RegistrationScreen(),
         ChatScreen.id: (context) => ChatScreen(),
-        // When navigating to the "/second" route, build the SecondScreen widget.
       },
     );
   }
